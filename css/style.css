@@ -1,0 +1,141 @@
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    padding: 20px 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.nav-middle-section{
+    flex: 1;
+    text-align: center;
+    padding: 15px 0;
+}
+.nav-button{
+    padding: 7px 15px;
+    border-style: none;
+    margin-right: 15px;
+    font-size: large;
+    background-color: white;
+    font-weight: bold;   
+}
+
+.nav-button:hover{
+    border-color: rgb(245,153,70);
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border-style:solid ;
+    transition: 0.1s;
+}
+
+.nav-button:active{
+    opacity: 0.7;
+    size: 5%;
+}
+
+.nav-right-section{
+    width: 350px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.sing-log{
+background-color: white;
+margin: 20px;
+padding: 10px 40px;
+border-radius: 20px;
+border-style: none;
+border-color: rgb(245,153,70);
+border-style: solid;
+font-weight: bold;
+color: rgb(245,153,70);
+}
+.sing-log:hover{
+    background-color: rgb(245,153,70);
+    color: white;
+}
+
+#sing-in{
+    background-color:rgb(245,153,70);
+    color: white;
+}
+#sing-in:hover{
+    background-color: white;
+    color: rgb(245,153,70);;
+}
+
+.center{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.left{
+    margin-top: 10px;
+    padding-left: 100px;
+    width: 750px;
+    padding-right: 60px;
+}
+
+.right{
+    flex: 1;
+    padding-top:50px ;
+}
+
+main h1{
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+p{
+    width: 350px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right{
+    width: 500px;
+}
+
+.get{
+    background-color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: rgb(245,153,70);
+    border-style: solid;
+    font-weight: bold;
+    color: rgb(245,153,70);   
+}
+
+#get{
+    background-color:rgb(245,153,70);
+    color: white;
+}
+
+.get:hover{
+    background-color:rgb(245,153,70);
+    color: white;
+}
+#get:hover{
+    background-color: white;
+    color: rgb(245,153,70);;
+}
+
+.footer-section{
+    padding-left: 90px;
+}
+
+.footer-section img{
+    width: 30px;
+    padding-left: 33px;
+}
